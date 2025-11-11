@@ -1,0 +1,42 @@
+{
+  "last_import": "2025-11-11T00:57:03.992713",
+  "imported_files": {
+    "part_0001.csv": {
+      "path": "datasets/part_0001.csv",
+      "size": 7848089,
+      "hash": "54f9d9708314f773e4d5909e4824abbf",
+      "import_date": "2025-11-11T00:56:50.237579",
+      "rows_imported": 50000
+    },
+    "part_0002.csv": {
+      "path": "datasets/part_0002.csv",
+      "size": 7849361,
+      "hash": "f90fd1f0f13a0600e39a9f7214d3a727",
+      "import_date": "2025-11-11T00:56:53.646904",
+      "rows_imported": 50000
+    },
+    "part_0003.csv": {
+      "path": "datasets/part_0003.csv",
+      "size": 7849501,
+      "hash": "1d171d9ede6741524a3af72c74b4c715",
+      "import_date": "2025-11-11T00:56:57.035156",
+      "rows_imported": 50000
+    },
+    "part_0004.csv": {
+      "path": "datasets/part_0004.csv",
+      "size": 7850446,
+      "hash": "c40e78695edc5defa4e6676fb647a58b",
+      "import_date": "2025-11-11T00:57:00.546864",
+      "rows_imported": 50000
+    },
+    "part_0005.csv": {
+      "path": "datasets/part_0005.csv",
+      "size": 7850611,
+      "hash": "f9ab98b6180786183ee64dc3dccceca5",
+      "import_date": "2025-11-11T00:57:03.992701",
+      "rows_imported": 50000
+    }
+  },
+  "total_files_imported": 5,
+  "total_rows_imported": 250000
+}

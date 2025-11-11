@@ -1,0 +1,240 @@
+2025-11-11 00:44:18,104 - INFO - 🚀 Démarrage de l'import - Log: logs_task/import_20251111_004418.log
+2025-11-11 00:44:18,104 - INFO - 🔍 Recherche des fichiers CSV...
+2025-11-11 00:44:18,122 - INFO - ⏭️  Fichier déjà importé: part_0001.csv
+2025-11-11 00:44:18,139 - INFO - ⏭️  Fichier déjà importé: part_0002.csv
+2025-11-11 00:44:18,156 - INFO - ⏭️  Fichier déjà importé: part_0003.csv
+2025-11-11 00:44:18,173 - INFO - ⏭️  Fichier déjà importé: part_0004.csv
+2025-11-11 00:44:18,191 - INFO - ⏭️  Fichier déjà importé: part_0005.csv
+2025-11-11 00:44:18,207 - INFO - ⏭️  Fichier déjà importé: part_0006.csv
+2025-11-11 00:44:18,225 - INFO - ⏭️  Fichier déjà importé: part_0007.csv
+2025-11-11 00:44:18,242 - INFO - ⏭️  Fichier déjà importé: part_0008.csv
+2025-11-11 00:44:18,259 - INFO - ⏭️  Fichier déjà importé: part_0009.csv
+2025-11-11 00:44:18,274 - INFO - ⏭️  Fichier déjà importé: part_0010.csv
+2025-11-11 00:44:18,291 - INFO - ⏭️  Fichier déjà importé: part_0011.csv
+2025-11-11 00:44:18,619 - INFO - 📁 Fichiers trouvés: 30 total, 19 nouveaux, 11 déjà importés
+2025-11-11 00:44:18,619 - INFO - 🔌 Connexion à la base de données...
+2025-11-11 00:44:18,757 - INFO - 🚀 Début de l'insertion de 19 nouveaux fichiers...
+2025-11-11 00:44:18,757 - INFO - 
+============================================================
+2025-11-11 00:44:18,757 - INFO - 📦 Fichier 1/19: part_0012.csv
+2025-11-11 00:44:18,757 - INFO - ============================================================
+2025-11-11 00:44:18,757 - INFO - 📄 Début du traitement: part_0012.csv
+2025-11-11 00:44:18,757 - INFO - 🔧 Délimiteur détecté: ',' pour part_0012.csv
+2025-11-11 00:44:18,835 - INFO - ✅ Fichier part_0012.csv lu avec encodage: utf-8
+2025-11-11 00:44:18,835 - INFO - 📊 part_0012.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:18,930 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0012.csv
+2025-11-11 00:44:22,291 - INFO - ✅ 50,000 lignes insérées depuis part_0012.csv
+2025-11-11 00:44:22,307 - INFO - ✅ Fichier marqué comme importé: part_0012.csv (50000 lignes)
+2025-11-11 00:44:22,308 - INFO - 
+============================================================
+2025-11-11 00:44:22,308 - INFO - 📦 Fichier 2/19: part_0013.csv
+2025-11-11 00:44:22,308 - INFO - ============================================================
+2025-11-11 00:44:22,308 - INFO - 📄 Début du traitement: part_0013.csv
+2025-11-11 00:44:22,308 - INFO - 🔧 Délimiteur détecté: ',' pour part_0013.csv
+2025-11-11 00:44:22,374 - INFO - ✅ Fichier part_0013.csv lu avec encodage: utf-8
+2025-11-11 00:44:22,374 - INFO - 📊 part_0013.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:22,461 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0013.csv
+2025-11-11 00:44:25,865 - INFO - ✅ 50,000 lignes insérées depuis part_0013.csv
+2025-11-11 00:44:25,880 - INFO - ✅ Fichier marqué comme importé: part_0013.csv (50000 lignes)
+2025-11-11 00:44:25,881 - INFO - 
+============================================================
+2025-11-11 00:44:25,882 - INFO - 📦 Fichier 3/19: part_0014.csv
+2025-11-11 00:44:25,882 - INFO - ============================================================
+2025-11-11 00:44:25,882 - INFO - 📄 Début du traitement: part_0014.csv
+2025-11-11 00:44:25,882 - INFO - 🔧 Délimiteur détecté: ',' pour part_0014.csv
+2025-11-11 00:44:25,949 - INFO - ✅ Fichier part_0014.csv lu avec encodage: utf-8
+2025-11-11 00:44:25,949 - INFO - 📊 part_0014.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:26,031 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0014.csv
+2025-11-11 00:44:29,248 - INFO - ✅ 50,000 lignes insérées depuis part_0014.csv
+2025-11-11 00:44:29,263 - INFO - ✅ Fichier marqué comme importé: part_0014.csv (50000 lignes)
+2025-11-11 00:44:29,264 - INFO - 
+============================================================
+2025-11-11 00:44:29,264 - INFO - 📦 Fichier 4/19: part_0015.csv
+2025-11-11 00:44:29,264 - INFO - ============================================================
+2025-11-11 00:44:29,264 - INFO - 📄 Début du traitement: part_0015.csv
+2025-11-11 00:44:29,265 - INFO - 🔧 Délimiteur détecté: ',' pour part_0015.csv
+2025-11-11 00:44:29,327 - INFO - ✅ Fichier part_0015.csv lu avec encodage: utf-8
+2025-11-11 00:44:29,327 - INFO - 📊 part_0015.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:29,409 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0015.csv
+2025-11-11 00:44:32,663 - INFO - ✅ 50,000 lignes insérées depuis part_0015.csv
+2025-11-11 00:44:32,679 - INFO - ✅ Fichier marqué comme importé: part_0015.csv (50000 lignes)
+2025-11-11 00:44:32,681 - INFO - 
+============================================================
+2025-11-11 00:44:32,681 - INFO - 📦 Fichier 5/19: part_0016.csv
+2025-11-11 00:44:32,681 - INFO - ============================================================
+2025-11-11 00:44:32,681 - INFO - 📄 Début du traitement: part_0016.csv
+2025-11-11 00:44:32,681 - INFO - 🔧 Délimiteur détecté: ',' pour part_0016.csv
+2025-11-11 00:44:32,748 - INFO - ✅ Fichier part_0016.csv lu avec encodage: utf-8
+2025-11-11 00:44:32,748 - INFO - 📊 part_0016.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:32,830 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0016.csv
+2025-11-11 00:44:35,906 - INFO - ✅ 50,000 lignes insérées depuis part_0016.csv
+2025-11-11 00:44:35,922 - INFO - ✅ Fichier marqué comme importé: part_0016.csv (50000 lignes)
+2025-11-11 00:44:35,923 - INFO - 💤 Pause de 2 secondes...
+2025-11-11 00:44:37,928 - INFO - 
+============================================================
+2025-11-11 00:44:37,928 - INFO - 📦 Fichier 6/19: part_0017.csv
+2025-11-11 00:44:37,928 - INFO - ============================================================
+2025-11-11 00:44:37,928 - INFO - 📄 Début du traitement: part_0017.csv
+2025-11-11 00:44:37,929 - INFO - 🔧 Délimiteur détecté: ',' pour part_0017.csv
+2025-11-11 00:44:38,012 - INFO - ✅ Fichier part_0017.csv lu avec encodage: utf-8
+2025-11-11 00:44:38,012 - INFO - 📊 part_0017.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:38,094 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0017.csv
+2025-11-11 00:44:41,548 - INFO - ✅ 50,000 lignes insérées depuis part_0017.csv
+2025-11-11 00:44:41,564 - INFO - ✅ Fichier marqué comme importé: part_0017.csv (50000 lignes)
+2025-11-11 00:44:41,565 - INFO - 
+============================================================
+2025-11-11 00:44:41,565 - INFO - 📦 Fichier 7/19: part_0018.csv
+2025-11-11 00:44:41,566 - INFO - ============================================================
+2025-11-11 00:44:41,566 - INFO - 📄 Début du traitement: part_0018.csv
+2025-11-11 00:44:41,566 - INFO - 🔧 Délimiteur détecté: ',' pour part_0018.csv
+2025-11-11 00:44:41,635 - INFO - ✅ Fichier part_0018.csv lu avec encodage: utf-8
+2025-11-11 00:44:41,636 - INFO - 📊 part_0018.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:41,718 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0018.csv
+2025-11-11 00:44:44,852 - INFO - ✅ 50,000 lignes insérées depuis part_0018.csv
+2025-11-11 00:44:44,867 - INFO - ✅ Fichier marqué comme importé: part_0018.csv (50000 lignes)
+2025-11-11 00:44:44,869 - INFO - 
+============================================================
+2025-11-11 00:44:44,869 - INFO - 📦 Fichier 8/19: part_0019.csv
+2025-11-11 00:44:44,869 - INFO - ============================================================
+2025-11-11 00:44:44,869 - INFO - 📄 Début du traitement: part_0019.csv
+2025-11-11 00:44:44,869 - INFO - 🔧 Délimiteur détecté: ',' pour part_0019.csv
+2025-11-11 00:44:44,933 - INFO - ✅ Fichier part_0019.csv lu avec encodage: utf-8
+2025-11-11 00:44:44,933 - INFO - 📊 part_0019.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:45,015 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0019.csv
+2025-11-11 00:44:48,205 - INFO - ✅ 50,000 lignes insérées depuis part_0019.csv
+2025-11-11 00:44:48,220 - INFO - ✅ Fichier marqué comme importé: part_0019.csv (50000 lignes)
+2025-11-11 00:44:48,222 - INFO - 
+============================================================
+2025-11-11 00:44:48,222 - INFO - 📦 Fichier 9/19: part_0020.csv
+2025-11-11 00:44:48,222 - INFO - ============================================================
+2025-11-11 00:44:48,222 - INFO - 📄 Début du traitement: part_0020.csv
+2025-11-11 00:44:48,222 - INFO - 🔧 Délimiteur détecté: ',' pour part_0020.csv
+2025-11-11 00:44:48,292 - INFO - ✅ Fichier part_0020.csv lu avec encodage: utf-8
+2025-11-11 00:44:48,292 - INFO - 📊 part_0020.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:48,375 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0020.csv
+2025-11-11 00:44:51,773 - INFO - ✅ 50,000 lignes insérées depuis part_0020.csv
+2025-11-11 00:44:51,788 - INFO - ✅ Fichier marqué comme importé: part_0020.csv (50000 lignes)
+2025-11-11 00:44:51,790 - INFO - 
+============================================================
+2025-11-11 00:44:51,790 - INFO - 📦 Fichier 10/19: part_0021.csv
+2025-11-11 00:44:51,790 - INFO - ============================================================
+2025-11-11 00:44:51,790 - INFO - 📄 Début du traitement: part_0021.csv
+2025-11-11 00:44:51,790 - INFO - 🔧 Délimiteur détecté: ',' pour part_0021.csv
+2025-11-11 00:44:51,861 - INFO - ✅ Fichier part_0021.csv lu avec encodage: utf-8
+2025-11-11 00:44:51,861 - INFO - 📊 part_0021.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:51,951 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0021.csv
+2025-11-11 00:44:55,190 - INFO - ✅ 50,000 lignes insérées depuis part_0021.csv
+2025-11-11 00:44:55,205 - INFO - ✅ Fichier marqué comme importé: part_0021.csv (50000 lignes)
+2025-11-11 00:44:55,207 - INFO - 💤 Pause de 2 secondes...
+2025-11-11 00:44:57,212 - INFO - 
+============================================================
+2025-11-11 00:44:57,212 - INFO - 📦 Fichier 11/19: part_0022.csv
+2025-11-11 00:44:57,212 - INFO - ============================================================
+2025-11-11 00:44:57,212 - INFO - 📄 Début du traitement: part_0022.csv
+2025-11-11 00:44:57,213 - INFO - 🔧 Délimiteur détecté: ',' pour part_0022.csv
+2025-11-11 00:44:57,303 - INFO - ✅ Fichier part_0022.csv lu avec encodage: utf-8
+2025-11-11 00:44:57,303 - INFO - 📊 part_0022.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:44:57,386 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0022.csv
+2025-11-11 00:45:00,543 - INFO - ✅ 50,000 lignes insérées depuis part_0022.csv
+2025-11-11 00:45:00,558 - INFO - ✅ Fichier marqué comme importé: part_0022.csv (50000 lignes)
+2025-11-11 00:45:00,560 - INFO - 
+============================================================
+2025-11-11 00:45:00,560 - INFO - 📦 Fichier 12/19: part_0023.csv
+2025-11-11 00:45:00,560 - INFO - ============================================================
+2025-11-11 00:45:00,560 - INFO - 📄 Début du traitement: part_0023.csv
+2025-11-11 00:45:00,560 - INFO - 🔧 Délimiteur détecté: ',' pour part_0023.csv
+2025-11-11 00:45:00,625 - INFO - ✅ Fichier part_0023.csv lu avec encodage: utf-8
+2025-11-11 00:45:00,625 - INFO - 📊 part_0023.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:00,707 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0023.csv
+2025-11-11 00:45:03,967 - INFO - ✅ 50,000 lignes insérées depuis part_0023.csv
+2025-11-11 00:45:03,983 - INFO - ✅ Fichier marqué comme importé: part_0023.csv (50000 lignes)
+2025-11-11 00:45:03,984 - INFO - 
+============================================================
+2025-11-11 00:45:03,984 - INFO - 📦 Fichier 13/19: part_0024.csv
+2025-11-11 00:45:03,984 - INFO - ============================================================
+2025-11-11 00:45:03,985 - INFO - 📄 Début du traitement: part_0024.csv
+2025-11-11 00:45:03,985 - INFO - 🔧 Délimiteur détecté: ',' pour part_0024.csv
+2025-11-11 00:45:04,056 - INFO - ✅ Fichier part_0024.csv lu avec encodage: utf-8
+2025-11-11 00:45:04,056 - INFO - 📊 part_0024.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:04,145 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0024.csv
+2025-11-11 00:45:07,389 - INFO - ✅ 50,000 lignes insérées depuis part_0024.csv
+2025-11-11 00:45:07,405 - INFO - ✅ Fichier marqué comme importé: part_0024.csv (50000 lignes)
+2025-11-11 00:45:07,407 - INFO - 
+============================================================
+2025-11-11 00:45:07,407 - INFO - 📦 Fichier 14/19: part_0025.csv
+2025-11-11 00:45:07,407 - INFO - ============================================================
+2025-11-11 00:45:07,407 - INFO - 📄 Début du traitement: part_0025.csv
+2025-11-11 00:45:07,408 - INFO - 🔧 Délimiteur détecté: ',' pour part_0025.csv
+2025-11-11 00:45:07,472 - INFO - ✅ Fichier part_0025.csv lu avec encodage: utf-8
+2025-11-11 00:45:07,472 - INFO - 📊 part_0025.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:07,553 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0025.csv
+2025-11-11 00:45:10,956 - INFO - ✅ 50,000 lignes insérées depuis part_0025.csv
+2025-11-11 00:45:10,972 - INFO - ✅ Fichier marqué comme importé: part_0025.csv (50000 lignes)
+2025-11-11 00:45:10,973 - INFO - 
+============================================================
+2025-11-11 00:45:10,973 - INFO - 📦 Fichier 15/19: part_0026.csv
+2025-11-11 00:45:10,973 - INFO - ============================================================
+2025-11-11 00:45:10,973 - INFO - 📄 Début du traitement: part_0026.csv
+2025-11-11 00:45:10,974 - INFO - 🔧 Délimiteur détecté: ',' pour part_0026.csv
+2025-11-11 00:45:11,050 - INFO - ✅ Fichier part_0026.csv lu avec encodage: utf-8
+2025-11-11 00:45:11,050 - INFO - 📊 part_0026.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:11,134 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0026.csv
+2025-11-11 00:45:14,496 - INFO - ✅ 50,000 lignes insérées depuis part_0026.csv
+2025-11-11 00:45:14,511 - INFO - ✅ Fichier marqué comme importé: part_0026.csv (50000 lignes)
+2025-11-11 00:45:14,512 - INFO - 💤 Pause de 2 secondes...
+2025-11-11 00:45:16,518 - INFO - 
+============================================================
+2025-11-11 00:45:16,518 - INFO - 📦 Fichier 16/19: part_0027.csv
+2025-11-11 00:45:16,518 - INFO - ============================================================
+2025-11-11 00:45:16,519 - INFO - 📄 Début du traitement: part_0027.csv
+2025-11-11 00:45:16,520 - INFO - 🔧 Délimiteur détecté: ',' pour part_0027.csv
+2025-11-11 00:45:16,611 - INFO - ✅ Fichier part_0027.csv lu avec encodage: utf-8
+2025-11-11 00:45:16,611 - INFO - 📊 part_0027.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:16,696 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0027.csv
+2025-11-11 00:45:19,817 - INFO - ✅ 50,000 lignes insérées depuis part_0027.csv
+2025-11-11 00:45:19,832 - INFO - ✅ Fichier marqué comme importé: part_0027.csv (50000 lignes)
+2025-11-11 00:45:19,834 - INFO - 
+============================================================
+2025-11-11 00:45:19,834 - INFO - 📦 Fichier 17/19: part_0028.csv
+2025-11-11 00:45:19,834 - INFO - ============================================================
+2025-11-11 00:45:19,834 - INFO - 📄 Début du traitement: part_0028.csv
+2025-11-11 00:45:19,834 - INFO - 🔧 Délimiteur détecté: ',' pour part_0028.csv
+2025-11-11 00:45:19,899 - INFO - ✅ Fichier part_0028.csv lu avec encodage: utf-8
+2025-11-11 00:45:19,899 - INFO - 📊 part_0028.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:19,982 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0028.csv
+2025-11-11 00:45:23,148 - INFO - ✅ 50,000 lignes insérées depuis part_0028.csv
+2025-11-11 00:45:23,172 - INFO - ✅ Fichier marqué comme importé: part_0028.csv (50000 lignes)
+2025-11-11 00:45:23,174 - INFO - 
+============================================================
+2025-11-11 00:45:23,174 - INFO - 📦 Fichier 18/19: part_0029.csv
+2025-11-11 00:45:23,174 - INFO - ============================================================
+2025-11-11 00:45:23,174 - INFO - 📄 Début du traitement: part_0029.csv
+2025-11-11 00:45:23,174 - INFO - 🔧 Délimiteur détecté: ',' pour part_0029.csv
+2025-11-11 00:45:23,239 - INFO - ✅ Fichier part_0029.csv lu avec encodage: utf-8
+2025-11-11 00:45:23,239 - INFO - 📊 part_0029.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:23,334 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0029.csv
+2025-11-11 00:45:26,540 - INFO - ✅ 50,000 lignes insérées depuis part_0029.csv
+2025-11-11 00:45:26,564 - INFO - ✅ Fichier marqué comme importé: part_0029.csv (50000 lignes)
+2025-11-11 00:45:26,565 - INFO - 
+============================================================
+2025-11-11 00:45:26,565 - INFO - 📦 Fichier 19/19: part_0030.csv
+2025-11-11 00:45:26,565 - INFO - ============================================================
+2025-11-11 00:45:26,566 - INFO - 📄 Début du traitement: part_0030.csv
+2025-11-11 00:45:26,566 - INFO - 🔧 Délimiteur détecté: ',' pour part_0030.csv
+2025-11-11 00:45:26,638 - INFO - ✅ Fichier part_0030.csv lu avec encodage: utf-8
+2025-11-11 00:45:26,638 - INFO - 📊 part_0030.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:45:26,721 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0030.csv
+2025-11-11 00:45:29,879 - INFO - ✅ 50,000 lignes insérées depuis part_0030.csv
+2025-11-11 00:45:29,895 - INFO - ✅ Fichier marqué comme importé: part_0030.csv (50000 lignes)
+2025-11-11 00:45:29,896 - INFO - 
+============================================================
+2025-11-11 00:45:29,896 - INFO - 🎉 TRAITEMENT TERMINÉ!
+2025-11-11 00:45:29,896 - INFO - ============================================================
+2025-11-11 00:45:29,896 - INFO - 📊 Nouveaux fichiers traités: 19
+2025-11-11 00:45:29,896 - INFO - 📈 Nouvelles lignes insérées: 950,000
+2025-11-11 00:45:29,897 - INFO - ⏭️  Fichiers ignorés (déjà importés): 11
+2025-11-11 00:45:29,897 - INFO - 💾 Table cible: produits_lake
+2025-11-11 00:45:29,897 - INFO - 📄 Fichier de log: logs_task/import_20251111_004418.log
+2025-11-11 00:45:38,782 - ERROR - ⚠️  Impossible de compter les lignes dans la table: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x2746 (10054) (SQLExecDirectW)')
+2025-11-11 00:45:38,786 - INFO - 📈 Statistiques globales: 30 fichiers, 1,500,000 lignes
+2025-11-11 00:45:38,786 - INFO - 🔌 Connexion fermée

@@ -1,0 +1,15 @@
+2025-11-11 00:50:33,845 - INFO - 🚀 Démarrage de l'import - Log: logs_task/import_20251111_005033.log
+2025-11-11 00:50:33,846 - INFO - 🔍 Recherche des fichiers CSV...
+2025-11-11 00:50:33,862 - INFO - ⏭️  Fichier déjà importé: part_0001.csv
+2025-11-11 00:50:33,884 - INFO - ⏭️  Fichier déjà importé: part_0002.csv
+2025-11-11 00:50:33,900 - INFO - ⏭️  Fichier déjà importé: part_0003.csv
+2025-11-11 00:50:33,917 - INFO - ⏭️  Fichier déjà importé: part_0004.csv
+2025-11-11 00:50:33,936 - INFO - ⏭️  Fichier déjà importé: part_0005.csv
+2025-11-11 00:50:33,952 - INFO - ⏭️  Fichier déjà importé: part_0006.csv
+2025-11-11 00:50:33,969 - INFO - ⏭️  Fichier déjà importé: part_0007.csv
+2025-11-11 00:50:33,985 - INFO - ⏭️  Fichier déjà importé: part_0008.csv
+2025-11-11 00:50:34,002 - INFO - ⏭️  Fichier déjà importé: part_0009.csv
+2025-11-11 00:50:34,019 - INFO - ⏭️  Fichier déjà importé: part_0010.csv
+2025-11-11 00:50:34,019 - INFO - 📁 Fichiers trouvés: 10 total, 0 nouveaux, 10 déjà importés
+2025-11-11 00:50:34,019 - INFO - 🎉 Aucun nouveau fichier à importer!
+2025-11-11 00:50:34,019 - INFO - 📈 Statistiques actuelles: 30 fichiers, 1,500,000 lignes

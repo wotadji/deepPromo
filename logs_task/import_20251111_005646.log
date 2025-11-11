@@ -1,0 +1,130 @@
+2025-11-11 00:56:46,287 - INFO - 🚀 Démarrage de l'import - Log: logs_task/import_20251111_005646.log
+2025-11-11 00:56:46,288 - INFO - 🔄 État d'import réinitialisé
+2025-11-11 00:56:46,288 - INFO - 🔄 Réimport forcé activé
+2025-11-11 00:56:46,288 - INFO - 🔍 Recherche des fichiers CSV...
+2025-11-11 00:56:46,448 - INFO - 📁 Fichiers trouvés: 10 total, 10 nouveaux, 0 déjà importés
+2025-11-11 00:56:46,448 - INFO - 🔌 Connexion à la base de données...
+2025-11-11 00:56:46,633 - INFO - 🚀 Début de l'insertion de 10 nouveaux fichiers...
+2025-11-11 00:56:46,633 - INFO - 
+============================================================
+2025-11-11 00:56:46,633 - INFO - 📦 Fichier 1/10: part_0001.csv
+2025-11-11 00:56:46,633 - INFO - ============================================================
+2025-11-11 00:56:46,633 - INFO - 📄 Début du traitement: part_0001.csv
+2025-11-11 00:56:46,633 - INFO - 🔧 Délimiteur détecté: ',' pour part_0001.csv
+2025-11-11 00:56:46,718 - INFO - ✅ Fichier part_0001.csv lu avec encodage: utf-8
+2025-11-11 00:56:46,718 - INFO - 📊 part_0001.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:56:46,807 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0001.csv
+2025-11-11 00:56:50,223 - INFO - ✅ 50,000 lignes insérées depuis part_0001.csv
+2025-11-11 00:56:50,237 - INFO - ✅ Fichier marqué comme importé: part_0001.csv (50000 lignes)
+2025-11-11 00:56:50,239 - INFO - 
+============================================================
+2025-11-11 00:56:50,239 - INFO - 📦 Fichier 2/10: part_0002.csv
+2025-11-11 00:56:50,239 - INFO - ============================================================
+2025-11-11 00:56:50,239 - INFO - 📄 Début du traitement: part_0002.csv
+2025-11-11 00:56:50,239 - INFO - 🔧 Délimiteur détecté: ',' pour part_0002.csv
+2025-11-11 00:56:50,305 - INFO - ✅ Fichier part_0002.csv lu avec encodage: utf-8
+2025-11-11 00:56:50,305 - INFO - 📊 part_0002.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:56:50,387 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0002.csv
+2025-11-11 00:56:53,628 - INFO - ✅ 50,000 lignes insérées depuis part_0002.csv
+2025-11-11 00:56:53,647 - INFO - ✅ Fichier marqué comme importé: part_0002.csv (50000 lignes)
+2025-11-11 00:56:53,648 - INFO - 
+============================================================
+2025-11-11 00:56:53,648 - INFO - 📦 Fichier 3/10: part_0003.csv
+2025-11-11 00:56:53,648 - INFO - ============================================================
+2025-11-11 00:56:53,648 - INFO - 📄 Début du traitement: part_0003.csv
+2025-11-11 00:56:53,648 - INFO - 🔧 Délimiteur détecté: ',' pour part_0003.csv
+2025-11-11 00:56:53,718 - INFO - ✅ Fichier part_0003.csv lu avec encodage: utf-8
+2025-11-11 00:56:53,718 - INFO - 📊 part_0003.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:56:53,801 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0003.csv
+2025-11-11 00:56:57,019 - INFO - ✅ 50,000 lignes insérées depuis part_0003.csv
+2025-11-11 00:56:57,035 - INFO - ✅ Fichier marqué comme importé: part_0003.csv (50000 lignes)
+2025-11-11 00:56:57,036 - INFO - 
+============================================================
+2025-11-11 00:56:57,036 - INFO - 📦 Fichier 4/10: part_0004.csv
+2025-11-11 00:56:57,036 - INFO - ============================================================
+2025-11-11 00:56:57,036 - INFO - 📄 Début du traitement: part_0004.csv
+2025-11-11 00:56:57,037 - INFO - 🔧 Délimiteur détecté: ',' pour part_0004.csv
+2025-11-11 00:56:57,104 - INFO - ✅ Fichier part_0004.csv lu avec encodage: utf-8
+2025-11-11 00:56:57,104 - INFO - 📊 part_0004.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:56:57,189 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0004.csv
+2025-11-11 00:57:00,532 - INFO - ✅ 50,000 lignes insérées depuis part_0004.csv
+2025-11-11 00:57:00,547 - INFO - ✅ Fichier marqué comme importé: part_0004.csv (50000 lignes)
+2025-11-11 00:57:00,548 - INFO - 
+============================================================
+2025-11-11 00:57:00,548 - INFO - 📦 Fichier 5/10: part_0005.csv
+2025-11-11 00:57:00,548 - INFO - ============================================================
+2025-11-11 00:57:00,548 - INFO - 📄 Début du traitement: part_0005.csv
+2025-11-11 00:57:00,549 - INFO - 🔧 Délimiteur détecté: ',' pour part_0005.csv
+2025-11-11 00:57:00,615 - INFO - ✅ Fichier part_0005.csv lu avec encodage: utf-8
+2025-11-11 00:57:00,615 - INFO - 📊 part_0005.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:00,699 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0005.csv
+2025-11-11 00:57:03,978 - INFO - ✅ 50,000 lignes insérées depuis part_0005.csv
+2025-11-11 00:57:03,993 - INFO - ✅ Fichier marqué comme importé: part_0005.csv (50000 lignes)
+2025-11-11 00:57:03,994 - INFO - 💤 Pause de 2 secondes...
+2025-11-11 00:57:05,999 - INFO - 
+============================================================
+2025-11-11 00:57:06,000 - INFO - 📦 Fichier 6/10: part_0006.csv
+2025-11-11 00:57:06,000 - INFO - ============================================================
+2025-11-11 00:57:06,000 - INFO - 📄 Début du traitement: part_0006.csv
+2025-11-11 00:57:06,001 - INFO - 🔧 Délimiteur détecté: ',' pour part_0006.csv
+2025-11-11 00:57:06,084 - INFO - ✅ Fichier part_0006.csv lu avec encodage: utf-8
+2025-11-11 00:57:06,084 - INFO - 📊 part_0006.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:06,167 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0006.csv
+2025-11-11 00:57:17,406 - ERROR - ❌ Erreur sur le batch 21 de part_0006.csv : ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x2746 (10054) (SQLExecute)')
+2025-11-11 00:57:17,410 - ERROR - ❌ Erreur lors du traitement de datasets/part_0006.csv: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (-2147467259) (SQLEndTran)')
+2025-11-11 00:57:17,414 - INFO - 
+============================================================
+2025-11-11 00:57:17,414 - INFO - 📦 Fichier 7/10: part_0007.csv
+2025-11-11 00:57:17,414 - INFO - ============================================================
+2025-11-11 00:57:17,414 - INFO - 📄 Début du traitement: part_0007.csv
+2025-11-11 00:57:17,415 - INFO - 🔧 Délimiteur détecté: ',' pour part_0007.csv
+2025-11-11 00:57:17,493 - INFO - ✅ Fichier part_0007.csv lu avec encodage: utf-8
+2025-11-11 00:57:17,493 - INFO - 📊 part_0007.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:17,585 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0007.csv
+2025-11-11 00:57:17,588 - ERROR - ❌ Erreur sur le batch 1 de part_0007.csv : ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLExecDirectW)')
+2025-11-11 00:57:17,588 - ERROR - ❌ Erreur lors du traitement de datasets/part_0007.csv: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLEndTran)')
+2025-11-11 00:57:17,589 - INFO - 
+============================================================
+2025-11-11 00:57:17,589 - INFO - 📦 Fichier 8/10: part_0008.csv
+2025-11-11 00:57:17,589 - INFO - ============================================================
+2025-11-11 00:57:17,589 - INFO - 📄 Début du traitement: part_0008.csv
+2025-11-11 00:57:17,590 - INFO - 🔧 Délimiteur détecté: ',' pour part_0008.csv
+2025-11-11 00:57:17,984 - INFO - ✅ Fichier part_0008.csv lu avec encodage: utf-8
+2025-11-11 00:57:17,988 - INFO - 📊 part_0008.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:18,101 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0008.csv
+2025-11-11 00:57:18,103 - ERROR - ❌ Erreur sur le batch 1 de part_0008.csv : ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLExecDirectW)')
+2025-11-11 00:57:18,103 - ERROR - ❌ Erreur lors du traitement de datasets/part_0008.csv: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLEndTran)')
+2025-11-11 00:57:18,105 - INFO - 
+============================================================
+2025-11-11 00:57:18,105 - INFO - 📦 Fichier 9/10: part_0009.csv
+2025-11-11 00:57:18,105 - INFO - ============================================================
+2025-11-11 00:57:18,106 - INFO - 📄 Début du traitement: part_0009.csv
+2025-11-11 00:57:18,106 - INFO - 🔧 Délimiteur détecté: ',' pour part_0009.csv
+2025-11-11 00:57:18,186 - INFO - ✅ Fichier part_0009.csv lu avec encodage: utf-8
+2025-11-11 00:57:18,186 - INFO - 📊 part_0009.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:18,291 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0009.csv
+2025-11-11 00:57:18,293 - ERROR - ❌ Erreur sur le batch 1 de part_0009.csv : ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLExecDirectW)')
+2025-11-11 00:57:18,293 - ERROR - ❌ Erreur lors du traitement de datasets/part_0009.csv: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLEndTran)')
+2025-11-11 00:57:18,294 - INFO - 
+============================================================
+2025-11-11 00:57:18,294 - INFO - 📦 Fichier 10/10: part_0010.csv
+2025-11-11 00:57:18,294 - INFO - ============================================================
+2025-11-11 00:57:18,294 - INFO - 📄 Début du traitement: part_0010.csv
+2025-11-11 00:57:18,295 - INFO - 🔧 Délimiteur détecté: ',' pour part_0010.csv
+2025-11-11 00:57:18,361 - INFO - ✅ Fichier part_0010.csv lu avec encodage: utf-8
+2025-11-11 00:57:18,361 - INFO - 📊 part_0010.csv: 50,000 lignes, 17 colonnes
+2025-11-11 00:57:18,448 - INFO - ⚙️  Insertion de 50,000 lignes depuis part_0010.csv
+2025-11-11 00:57:18,449 - ERROR - ❌ Erreur sur le batch 1 de part_0010.csv : ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLExecDirectW)')
+2025-11-11 00:57:18,450 - ERROR - ❌ Erreur lors du traitement de datasets/part_0010.csv: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLEndTran)')
+2025-11-11 00:57:18,451 - INFO - 
+============================================================
+2025-11-11 00:57:18,451 - INFO - 🎉 TRAITEMENT TERMINÉ!
+2025-11-11 00:57:18,451 - INFO - ============================================================
+2025-11-11 00:57:18,451 - INFO - 📊 Nouveaux fichiers traités: 10
+2025-11-11 00:57:18,451 - INFO - 📈 Nouvelles lignes insérées: 250,000
+2025-11-11 00:57:18,451 - INFO - ⏭️  Fichiers ignorés (déjà importés): 0
+2025-11-11 00:57:18,451 - INFO - 💾 Table cible: produits_lake
+2025-11-11 00:57:18,451 - INFO - 📄 Fichier de log: logs_task/import_20251111_005646.log
+2025-11-11 00:57:18,451 - ERROR - ⚠️  Impossible de compter les lignes dans la table: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (0) (SQLExecDirectW)')
+2025-11-11 00:57:18,451 - INFO - 📈 Statistiques globales: 5 fichiers, 250,000 lignes
+2025-11-11 00:57:18,451 - INFO - 🔌 Connexion fermée
