@@ -1,4 +1,3 @@
 airflowDeepPromo/logs/
 *.log
-datasets-archived/
-datasets-archived/Carrefour_lake1.csv
+airflowDeepPromo/logs/**/*.log
