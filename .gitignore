@@ -1,3 +1,4 @@
 airflowDeepPromo/logs/
 *.log
 airflowDeepPromo/logs/**/*.log
+..bfg-report/

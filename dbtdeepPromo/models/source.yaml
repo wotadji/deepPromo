@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_deepPromo
+    database: wotadji_deeppromo
+    schema: public
+    tables:
+      - name: dp_lake_parquet
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null

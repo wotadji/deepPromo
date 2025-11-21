@@ -1,0 +1,179 @@
+version: 2
+
+models:
+  - name: stg_sales_data
+    description: "Données de ventes nettoyées et standardisées depuis la source raw_deepPromo"
+    columns:
+      - name: id_items
+        data_type: integer
+        description: "Identifiant unique de l'item de vente"
+        tests:
+          - unique
+          - not_null
+
+      - name: year
+        data_type: integer
+        description: "Année de la transaction"
+        tests:
+          - not_null
+
+      - name: month
+        data_type: integer
+        description: "Mois de la transaction"
+        tests:
+          - not_null
+
+      - name: country
+        data_type: character varying
+        description: "Pays où la vente a eu lieu"
+
+      - name: region
+        data_type: character varying
+        description: "Région géographique"
+
+      - name: department
+        data_type: character varying
+        description: "Département ou district"
+
+      - name: city
+        data_type: character varying
+        description: "Ville de la vente"
+
+      - name: store_id
+        data_type: character varying
+        description: "Identifiant du magasin"
+        tests:
+          - not_null
+
+      - name: product_id
+        data_type: character varying
+        description: "Identifiant unique du produit"
+        tests:
+          - not_null
+
+      - name: product_description
+        data_type: character varying
+        description: "Description détaillée du produit"
+
+      - name: purchase_price
+        data_type: double precision
+        description: "Prix d'achat du produit"
+
+      - name: selling_price
+        data_type: double precision
+        description: "Prix de vente au client"
+        tests:
+          - not_null
+
+      - name: quantity
+        data_type: double precision
+        description: "Quantité vendue"
+        tests:
+          - not_null
+
+      - name: total_price
+        data_type: double precision
+        description: "Montant total de la vente (selling_price * quantity)"
+        tests:
+          - not_null
+
+      - name: payment_type
+        data_type: character varying
+        description: "Type de paiement (carte, espèce, etc.)"
+
+      - name: customer_type
+        data_type: character varying
+        description: "Type de client (particulier, professionnel)"
+
+      - name: promotion_flag
+        data_type: boolean
+        description: "Indicateur si le produit était en promotion"
+
+      - name: product_department
+        data_type: character varying
+        description: "Département produit"
+
+      - name: product_category
+        data_type: character varying
+        description: "Catégorie du produit"
+
+      - name: scenario
+        data_type: character varying
+        description: "Scénario des données (ACTUAL_OFFICIAL, FORECAST, BUDGET, LY)"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['ACTUAL_OFFICIAL', 'FLASH_RESTATED']
+
+      - name: sales_channel
+        data_type: character varying
+        description: "Canal de vente (en ligne, magasin, drive)"
+        tests:
+          - not_null
+
+      - name: customer_segment
+        data_type: character varying
+        description: "Segment de clientèle"
+        tests:
+          - not_null
+
+      - name: commercial_region
+        data_type: character varying
+        description: "Région commerciale"
+        tests:
+          - not_null
+
+      - name: data_version
+        data_type: character varying
+        description: "Version des données"
+        tests:
+          - not_null
+
+      - name: data_sources
+        data_type: character varying
+        description: "Source d'origine des données"
+        tests:
+          - not_null
+
+      - name: validation_status
+        data_type: character varying
+        description: "Statut de validation des données"
+        tests:
+          - not_null
+
+      - name: geographic_zone
+        data_type: character varying
+        description: "Zone géographique"
+        tests:
+          - not_null
+
+      - name: store_size
+        data_type: character varying
+        description: "Taille du magasin"
+        tests:
+          - not_null
+
+      - name: store_type
+        data_type: character varying
+        description: "Type de point de vente"
+        tests:
+          - not_null
+
+      - name: acquisition_channel
+        data_type: character varying
+        description: "Canal d'acquisition client"
+        tests:
+          - not_null
+
+      - name: purchase_frequency
+        data_type: character varying
+        description: "Fréquence d'achat du client"
+        tests:
+          - not_null
+
+      - name: last_updated_date
+        data_type: timestamp with time zone
+        description: "Date et heure de dernière mise à jour de l'enregistrement"
+        tests:
+          - not_null

@@ -1,14 +1,33 @@
 dbtdeepPromo:
-  target: dev
+  target: dev   # valeur par défaut
   outputs:
     dev:
-      type: sqlserver
-      driver: "ODBC Driver 17 for SQL Server"
-      server: localhost
-      port: 1433
-      database: master
-      schema: dbo
-      user: SA
+      type: postgres
+      host: 198.23.53.53
+      port: 5432
+      database: wotadji_deeppromo
+      schema: dbtdp
+      user: wotadji_deeppromo
+      password: Chniadma04@
+      encrypt: false
+      trust_cert: False
+    preprod:
+      type: postgres
+      host: 198.23.53.53
+      port: 5432
+      database: wotadji_np_deeppromo
+      schema: dbtdp
+      user: wotadji_np_deeppromo
+      password: Chniadma04@
+      encrypt: false
+      trust_cert: False
+    prod:
+      type: postgres
+      host: 198.23.53.53
+      port: 5432
+      database: wotadji_prod_deeppromo
+      schema: dbtdp
+      user: wotadji_prod_deeppromo
       password: Chniadma04@
       encrypt: false
       trust_cert: False

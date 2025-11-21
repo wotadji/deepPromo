@@ -31,6 +31,20 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbtdeepPromo:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    staging:
+      +materialized: view
+      +schema: "{{ target.name }}_staging"
+    intermediate:
       +materialized: table
+      +schema: "{{ target.name }}_intermediate"
+    marts:
+      +materialized: table
+      +schema: "{{ target.name }}_marts"
+
+vars:
+  ana_scenario: 'ACTUAL_OFFICIAL'
+  ana_year: 2024
+  ref_scenario: 'FLASH_OFFICIAL'
+  ref_year: 2023
+  period: 'month'         # possible: annual, semester, quarter, month
+  granularity: 'country, region, department, city, store_id'   # possible: country, region, department, city, store_id
