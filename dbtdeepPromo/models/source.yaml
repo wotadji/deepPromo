@@ -5,7 +5,7 @@ sources:
     database: wotadji_deeppromo
     schema: public
     tables:
-      - name: dp_lake_parquet
+      - name: dp_lake_parquet_2
         columns:
           - name: id
             tests:

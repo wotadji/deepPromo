@@ -1,14 +1,29 @@
 {{
     config(
-        materialized='table',
+        materialized='incremental',
+        unique_key=['year',
+            'month', 
+            'scenario',
+            'product_id'
+            ],
+        post_hook=[
+            "CREATE INDEX IF NOT EXISTS {{ this.name }}_main_idx ON {{ this }} (date, year, month, product_id)",
+            "CREATE INDEX IF NOT EXISTS {{ this.name }}_date_idx ON {{ this }} (date)",
+            "ANALYZE {{ this }}"
+        ]
     )
 }}
 
 with base as (
     select
         date,
+        year,
+        month,
+        scenario,
         {{ var("granularity") }},
         product_id,
+        customer_type,
+        customer_segment,
         product_category,
         ana_per
     from {{ ref('int_metrics_per') }}
@@ -55,10 +70,9 @@ classified as (
 
 select
     date,
-    {{ var("granularity") }},
     product_id,
-    product_category,
-    share,
-    cum_share,
     abc_ana_full_scope
 from classified
+{% if is_incremental() and not should_reset_data() and last_updated_date %}
+WHERE last_updated_date > (SELECT MAX(last_updated_date) FROM {{ this }})
+{% endif %}

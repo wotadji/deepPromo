@@ -104,7 +104,7 @@ models:
           - not_null
           - accepted_values:
               arguments:
-                values: ['ACTUAL_OFFICIAL', 'FLASH_RESTATED']
+                values: ['ACTUAL_OFFICIAL', 'FLASH_RESTATED', FLASH_OFFICIAL, BUDGET_OFFICIAL]
 
       - name: sales_channel
         data_type: character varying

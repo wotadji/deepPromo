@@ -22,15 +22,15 @@ engine = create_engine(connection_string)
 # -------------------------------
 # Lecture du fichier parquet
 # -------------------------------
-df = pd.read_parquet("commercial_finance_data.parquet", engine="pyarrow")
+df = pd.read_parquet("sales_data_100k.parquet", engine="pyarrow")
 
 print(f"Fichier parquet chargé avec {len(df)} lignes et {len(df.columns)} colonnes")
 
 # -------------------------------
 # Ingestion avec barre de progression
 # -------------------------------
-table_name = "dp_lake_parquet"
-chunksize = 10000
+table_name = "dp_lake_parquet_2"
+chunksize = 100000
 
 # Calcul du nombre de chunks
 num_chunks = (len(df) // chunksize) + 1
