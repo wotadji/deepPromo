@@ -1,16 +1,7 @@
-
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
 name: 'dbtdeepPromo'
 version: '1.0.0'
 
-# This setting configures which "profile" dbt uses for this project.
 profile: 'dbtdeepPromo'
-
-# These configurations specify where dbt should look for different types of files.
-# The `model-paths` config, for example, states that models in this project can be
-# found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -32,19 +23,39 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbtdeepPromo:
     staging:
-      +materialized: view
-      +schema: "{{ target.name }}_staging"
+       +pre-hook: 
+         - "{{ apply_dev_limit() }}"
+         - "{% if should_reset_data() %} DELETE FROM {{ this }}; {% endif %}"
+       +post-hook: 
+         - "CREATE INDEX IF NOT EXISTS {{ this.name }}_idx ON {{ this }} (id_items, last_updated_date)"
+         - "ANALYZE {{ this }}"
+       +materialized: incremental
+       +schema: "{{ target.name }}_staging"
     intermediate:
+      +pre-hook: 
+         - "{{ apply_dev_limit() }}"
+         - "{% if should_reset_data() %} DELETE FROM {{ this }}; {% endif %}"
       +materialized: table
       +schema: "{{ target.name }}_intermediate"
     marts:
-      +materialized: table
+      +pre-hook: 
+         - "{{ apply_dev_limit() }}"
+         - "{% if should_reset_data() %} DELETE FROM {{ this }}; {% endif %}"
+      +materialized: incremental
       +schema: "{{ target.name }}_marts"
 
 vars:
+  row_limit_dev: 100000
+  reset_data: false
   ana_scenario: 'ACTUAL_OFFICIAL'
-  ana_year: 2024
+  ana_year: 2025
   ref_scenario: 'FLASH_OFFICIAL'
-  ref_year: 2023
+  ref_year: 2024
   period: 'month'         # possible: annual, semester, quarter, month
-  granularity: 'country, region, department, city, store_id'   # possible: country, region, department, city, store_id
+  granularity: 'country, region, department, city, store_id'
+ 
+  # customer_types: "'Fidélité', 'Entreprise', 'Particulier'"
+  # customer_segments: "'VIP', 'PREMIUM', 'CORPORATE'"
+  
+
+  # product_categories: "'TV', 'Audio', 'Savons'"
