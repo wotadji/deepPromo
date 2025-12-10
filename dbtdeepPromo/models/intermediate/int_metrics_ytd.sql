@@ -1,11 +1,7 @@
 {{
     config(
-        materialized='incremental',
-        unique_key=['year',
-            'month', 
-            'scenario',
-            'product_id'
-            ],
+        materialized='table',
+        unique_key='date, product_id',
         post_hook=[
             "CREATE INDEX IF NOT EXISTS {{ this.name }}_main_idx ON {{ this }} (date, product_id)",
             "CREATE INDEX IF NOT EXISTS {{ this.name }}_date_idx ON {{ this }} (date)",
@@ -21,15 +17,8 @@ with per as (
 ytd as (
     select
         date,
-        year,
-        month,
-        scenario,
         extract(year from date) as year_key,
-        {{ var("granularity") }},
         product_id,
-        customer_type,
-        customer_segment,
-        product_category,
         sum(ana_per) over (
             partition by extract(year from date), product_id
             order by date
@@ -62,14 +51,7 @@ ytd_perf as (
 
 select
     date,
-    year,
-    month,
-    scenario,
-    {{ var("granularity") }},
     product_id,
-    customer_type,
-    customer_segment,
-    product_category,
     ana_ytd,
     ref_ytd,
     perf_ytd,
@@ -77,6 +59,3 @@ select
     perf_var_ytd,
     achievement_rate_ytd
 from ytd_perf
-{% if is_incremental() and not should_reset_data() and last_updated_date %}
-WHERE last_updated_date > (SELECT MAX(last_updated_date) FROM {{ this }})
-{% endif %}
