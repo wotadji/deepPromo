@@ -1,11 +1,7 @@
 {{
     config(
-        materialized='incremental',
-        unique_key=['year',
-            'month', 
-            'scenario',
-            'product_id'
-            ],
+        materialized='table',
+        unique_key='date, product_id',
         post_hook=[
             "CREATE INDEX IF NOT EXISTS {{ this.name }}_main_idx ON {{ this }} (date, product_id)",
             "CREATE INDEX IF NOT EXISTS {{ this.name }}_date_idx ON {{ this }} (date)",
@@ -17,11 +13,7 @@
 with joined as (
   select
     p.date,
-    {{ select_granularity_columns(var("granularity"), "p") }},
     p.product_id,
-    customer_type,
-    customer_segment,
-    product_category,
     p.qty_ana_per,
     p.ana_per,
     p.qty_ref_per,
@@ -37,6 +29,3 @@ effects as (
   from joined
 )
 select * from effects
-{% if is_incremental() and not should_reset_data() and last_updated_date %}
-WHERE last_updated_date > (SELECT MAX(last_updated_date) FROM {{ this }})
-{% endif %}
